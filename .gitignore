@@ -128,4 +128,6 @@ dmypy.json
 
 # Benchmark data files
 benchmarks/data/**
+benchmarks/results/**
 !benchmarks/data/.gitkeep
+!benchmarks/results/.gitkeep
