@@ -125,3 +125,7 @@ dmypy.json
 
 # PyCharm
 .idea/
+
+# Benchmark data files
+benchmarks/data/**
+!benchmarks/data/.gitkeep
