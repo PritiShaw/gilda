@@ -39,6 +39,7 @@ setup(name='gilda',
                         'flask-wtf', 'flask-bootstrap', 'obonet'],
       extras_require={'test': ['nose', 'coverage'],
                       'terms': ['indra'],
-                      'benchmarks': ['pandas', 'requests']},
+                      'benchmarks': ['pandas>=1.0', 'requests',
+                                     'tabulate', 'tqdm']},
       keywords=['nlp', 'biology']
       )
